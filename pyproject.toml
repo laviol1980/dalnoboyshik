@@ -1,0 +1,10 @@
+[project]
+name = "dalnoboyshchik"
+version = "0.1.0"
+description = "Бот‑курьер: разворачивает и раскладывает подготовленный пакет."
+authors = [{name="Institute Team"}]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+dalnoboyshchik = "dalnoboyshchik.main:main"
